@@ -36,10 +36,16 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
+### Python Code
+[View server.py](server.py)
 
+### HTML Code
+[View index.html](index.html)
 
 ## OUTPUT:
 
+
+![Webserver Output](output.png)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
