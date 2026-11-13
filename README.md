@@ -37,7 +37,6 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
 ### Python Code
-[View server.py](server.py)
 
 ```python
 from http.server import HTTPServer, SimpleHTTPRequestHandler
@@ -52,6 +51,10 @@ print("Open http://127.0.0.1:8000")
 
 server.serve_forever()
 ```
+
+
+
+### HTML Code
 
 
 ```html
@@ -106,8 +109,6 @@ server.serve_forever()
 </html>
 ```
 
-### HTML Code
-[View index.html](index.html)
 
 ## OUTPUT:
 
