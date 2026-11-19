@@ -36,6 +36,7 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
+<<<<<<< HEAD
 ```
 yogesh.py
 <html>
@@ -97,12 +98,89 @@ yogesh.py
 </body>
 </html>
 ```
+=======
+### Python Code
+
+```python
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+
+class MyHandler(SimpleHTTPRequestHandler):
+    pass
+
+server = HTTPServer(("127.0.0.1", 8000), MyHandler)
+
+print("Web Server Started Successfully")
+print("Open http://127.0.0.1:8000")
+
+server.serve_forever()
+```
+
+
+
+### HTML Code
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laptop Properties</title>
+</head>
+<body>
+    <center>
+        <h1>Yogesh 26010711</h1>
+        <table border="1" cellpadding="12" cellspacing="5">
+            <caption>My Laptop Configuration</caption>
+            <tr>
+                <th>S.NO</th>
+                <th>Device type</th>
+                <th>Device info</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Device Name</td>
+                <td>TL15-53M-G2</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Processor</td>
+                <td>Intel Core 5 210H</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Installed RAM</td>
+                <td>16 GB</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Graphics Card</td>
+                <td>Intel Graphics</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Storage</td>
+                <td>477 GB</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>System Type</td>
+                <td>64-bit operating system</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
+```
+
+>>>>>>> d4e07fbde88eb17293093083b26139dde305bed0
 
 ## OUTPUT:
 webpage
 ![alt text](<Screenshot (9).png>)
 server Page
 ![alt text](<Screenshot (11).png>)
+
+![Webserver Output](output.png)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
