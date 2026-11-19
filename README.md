@@ -102,11 +102,11 @@ yogesh.py
 
 ## OUTPUT:
 webpage
-![alt text](<Screenshot (9).png>)
+![Webserver Output](output.png)
 server Page
 ![alt text](<Screenshot (11).png>)
 
-![Webserver Output](output.png)
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
